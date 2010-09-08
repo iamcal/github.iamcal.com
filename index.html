@@ -1,8 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta http-equiv="refresh" content="0;url=http://code.iamcal.com/" />
+<title>Cal's Code Stuff</title>
+<style>
+
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+}
+
+#main {
+	width: 740px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 1em 1em 5em 1em;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	background-color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+h2 {
+	margin-top: 1.5em;
+}
+
+#col1, #col2 { width: 50%; float: left; }
+#col1 div { padding-right: 20px; }
+#col2 div { padding-left: 20px; }
+
+
+</style>
 </head>
 <body>
+
+<!--
+	NOTE TO SELF:
+	To  modify this header nav, do it in the SVN repo and then copy the result over here.
+-->
+<style type="text/css" media="screen">
+
+#headnav {
+	background-color: #6699CC;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	color: #fff;
+	padding: 8px;
+	font-size: 16px;
+	line-height: 100%;
+	border-bottom: 2px solid  #369;
+}
+
+#headnav h2 {
+	float: left;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 30px 0 0;
+	font-size: 20px;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+#headnav div {
+	float: left;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 16px;
+}
+
+#headnav div a {
+	color: #fff;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+	font-size: 16px;
+}
+
+#headnav div a:hover {
+	text-decoration: underline;
+}
+
+</style>
+<style type="text/css" media="print">
+
+#headnav {
+	display: none;
+}
+
+</style>
+
+<div id="headnav">
+	<h2>iamcal.com</h2>
+
+	<div>
+		<a href="http://www.iamcal.com/">home</a>
+		|
+		<a href="http://www.iamcal.com/book/">book</a>
+		|
+		<a href="http://software.iamcal.com/">software</a>
+		|
+		<a href="http://code.iamcal.com/">code</a>
+
+		|
+		<a href="http://www.iamcal.com/publish/">articles</a>
+		|
+		<a href="https://svn.iamcal.com/public/">public SVN</a>
+	</div>
+	<br clear="all" />
+</div>
+
+<div id="main">
+
+<h1>Cal's GitHub Stuff</h1>
+
+<p>
+My stuff on github is split between <a href="http://github.com/iamcal">my personal account</a>,
+the <a href="http://github.com/exflickr">ex-flickr organization</a> and 
+the <a href="http://github.com/tinyspeck">tinyspeck organization</a>.
+Ex-flickr is a group of projects created by engineers who once worked at 
+<a href="http://www.flickr.com">Flickr</a> and follow the <i>Flickr way</i>, based on the 
+lessons we learned over 6+ years of engineering a very large web app.
+<a href="http://www.tinyspeck.com/">TinySpeck</a> is the company I now work for, 
+building <a href="http://www.glitch.com">Glitch</a>, a web-based massively-multiplayer online game.
+</p>
+
+
+<div id="col1"><div>
+
+	<h2>PHP Libraries</h2>
+	<ul>
+		<li><a href="http://github.com/exflickr/flamework">Flamework</a>: a PHP application framework.</li>
+		<li><a href="http://github.com/iamcal/php-emoji">PHP-emoji</a>: an emoji filtering and transformation library.</li>
+		<li><a href="http://github.com/iamcal/lib_oauth">lib_oauth</a>: PHP4 OAuth library.</li>
+		<li><a href="http://github.com/iamcal/lib_sanitize">lib_sanitize</a>: Input validation library.</li>
+		<li><a href="http://github.com/iamcal/lib_autolink">lib_autolink</a>: Change URLs in input text into HTML links.</li>
+		<li><a href="http://github.com/iamcal/lib_filter">lib_filter</a>: Whitelist HTML input filtering.</li>
+		<li><a href="http://github.com/iamcal/rfc822">RFC822</a>: Email validation for RFCs 822, 2822 and 3696.</li>
+	</ul>
+
+	<h2>Single Sign-On</h2>
+	<ul>
+		<li><a href="http://github.com/exflickr/GodAuth">GodAuth</a>: Simple SSO for internal tools.</li>
+		<li><a href="http://github.com/iamcal/MediaWiki-SSO">MediaWiki-SSO</a>: SSO plugin for MediaWiki.</li>
+		<li><a href="http://github.com/iamcal/Trac-SSO">Trac-SSO</a>: SSO plugin for Trac.</li>
+	</ul>
+
+	<h2>Flickr</h2>
+	<p>All of these projects were previously hosted in Flickr's SVN repository, which has 
+	unfortunately been offline for several years.</p>
+	<ul>
+		<li><a href="http://github.com/iamcal/uploadr">Uploadr</a>: Desktop photo uploader.</li>
+		<li><a href="http://github.com/iamcal/Flickr-Test">Flickr::Test</a>: A PHP/Perl TAP test framework.</li>
+		<li><a href="http://github.com/iamcal/Flickr-StatsD">Flickr::StatsD</a>: Collect and aggregate realtime stats.</li>
+		<li><a href="http://github.com/iamcal/lib_xml">lib_xml</a>: Lightweight XPath-like library.</li>
+		<li><a href="http://github.com/iamcal/lib_input">lib_input</a>: Input filtering library.</li>
+		<li><a href="http://github.com/iamcal/desktopr">desktopr</a>: Next generation version of Uploadr.</li>
+		<li><a href="http://github.com/iamcal/clustr">clustr</a>: Geo shape clustering application.</li>
+	</ul>
+
+
+</div></div>
+<div id="col2"><div>
+
+	<h2>Node Libraries</h2>
+	<ul>
+		<li><a href="http://github.com/iamcal/node-mysql">node-mysql</a>: ?</li>
+		<li><a href="http://github.com/iamcal/daemon.node">daemon.node</a>: ?</li>
+		<li><a href="http://github.com/iamcal/node-memcache">node.memcache</a>: ?</li>
+		<li><a href="http://github.com/iamcal/http_utils.js">http_utils.js</a>: ?</li>
+	</ul>
+
+	<h2>Node Apps</h2>
+	<ul>
+		<li><a href="http://github.com/iamcal/logTailer">logTailer</a>: ?</li>
+		<li><a href="http://github.com/iamcal/rollup">rollup</a>: ?</li>
+	</ul>
+
+	<h2>Misc Apps</h2>
+	<ul>
+		<li><a href="http://github.com/iamcal/iTunesServer">iTunesServer</a>: ?</li>
+		<li><a href="http://github.com/iamcal/iTunesRemote">iTunesRemote</a>: ?</li>
+		<li><a href="http://github.com/iamcal/PNGStore">PNGStore</a>: ?</li>
+	</ul>
+
+	<h2>WoW Addons</h2>
+	<ul>
+		<li><a href="http://github.com/iamcal/Precedence">Precedence</a>: A dashboard for raiding hunters.</li>
+		<li><a href="http://github.com/iamcal/Bunny-Hunter">Bunny-Hunter</a>: Rare pet farming tracker.</li>
+		<li><a href="http://github.com/iamcal/MillHouse">MillHouse</a>: Summarize herbs ready for milling.</li>
+		<li><a href="http://github.com/iamcal/Auc-Searcher-Insane">Auc-Searcher-Insane</a>: Auctioneer plugin for search for Darkmoon Faire rep items.</li>
+		<li><a href="http://github.com/iamcal/Non-Compos-Mentis">Non-Compos-Mentis</a>: Tracking for the [Insane in the Membrane] achievement.</li>
+	</ul>
+
+</div></div>
+
+&nbsp;
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-106458-1");
+pageTracker._setDomainName("iamcal.github.com");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
 </body>
 </html>
