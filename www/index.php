@@ -41,7 +41,7 @@ h2 {
 
 <?
 	$nav = 'github';
-	include('/var/www/cal/iamcal.com/templates/universal_nav.txt');
+	include('../shared/universal_nav.txt');
 ?>
 
 <div id="main">
