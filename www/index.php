@@ -49,16 +49,17 @@ h2 {
 <h1>Cal's GitHub Stuff</h1>
 
 <p>
-My stuff on github is split between <a href="https://github.com/iamcal">my personal account</a>,
+My public stuff on github is split between <a href="https://github.com/iamcal">my personal account</a>,
 the <a href="https://github.com/exflickr">ex-flickr organization</a> and
 the <a href="https://github.com/tinyspeck">tinyspeck organization</a>.
-Ex-flickr is a group of projects created by engineers who once worked at
+
+Ex-flickr contains projects created by engineers who once worked at
 <a href="http://www.flickr.com">Flickr</a> and follow the <i>Flickr way</i>, based on the
-lessons we learned over 6+ years of engineering a very large web app.
+lessons we learned.
+
 <a href="http://www.tinyspeck.com/">TinySpeck</a> is the company I worked at for a decade,
 where we built <a href="https://glitchthegame.com/">Glitch</a> (a web-based MMO) and then
 <a href="http://www.slack.com">Slack</a>.
-Items below are grouped by topic and roughly sorted by popularity and recency.
 </p>
 
 
@@ -71,86 +72,42 @@ Items below are grouped by topic and roughly sorted by popularity and recency.
 		<li><a href="https://github.com/iamcal/php-emoji">php-emoji</a>: An emoji filtering and transformation library for PHP.</li>
 	</ul>
 
-	<h2>JavaScript &amp; Node</h2>
+	<h2>Web Apps</h2>
 	<ul>
 		<li><a href="https://github.com/iamcal/enchant-order">enchant-order</a>: Minecraft enchantment optimization tool.</li>
-		<li><a href="https://github.com/iamcal/PNGStore">PNGStore</a>: Compress CSS/JS into PNGs.</li>
 		<li><a href="https://github.com/iamcal/brainfuck-debug">brainfuck-debug</a>: JavaScript brainfuck debugger.</li>
+		<li><a href="https://github.com/iamcal/oembed">oEmbed</a>: Spec for oEmbed.</li>
+		<li><a href="https://github.com/iamcal/iTunesRemote">iTunesRemote</a>: Control a remote iTunes instance over the web.</li>
+		<li><a href="https://github.com/iamcal/iTunesServer">iTunesServer</a>: Play your music collection over the web.</li>
+		<li><a href="https://github.com/iamcal/SchemaDiff">SchemaDiff</a>: Database schema diffing tool.</li>
+		<li><a href="https://github.com/iamcal/bad-toys">bad-toys</a>: Capture client-side JavaScript errors in the wild.</li>
+	</ul>
+
+	<h2>Node.js</h2>
+	<ul>
 		<li><a href="https://github.com/iamcal/service.js">service.js</a>: Easily turn node apps into init.d services.</li>
 		<li><a href="https://github.com/iamcal/rollup">rollup</a>: Collect and graph high-volume realtime stats.</li>
 		<li><a href="https://github.com/iamcal/logTailer">logTailer</a>: Tail log files in real time over the web.</li>
 		<li><a href="https://github.com/iamcal/logSmush">logSmush</a>: Multi-server log aggregation over HTTP.</li>
-		<li><a href="https://github.com/iamcal/homespring.js">homespring.js</a>: A JavaScript interpreter for Homespring.</li>
-		<li><a href="https://github.com/iamcal/slack-if">slack-if</a>: Play Interactive Fiction on Slack.</li>
-		<li><a href="https://github.com/iamcal/autolink-js">autolink-js</a>: JS link formatting library.</li>
 		<li><a href="https://github.com/iamcal/daemon.node">daemon.node</a>: Collection of patches for running Node as a daemon.</li>
-		<li><a href="https://github.com/iamcal/gmaps-labels">gmaps-labels</a>: Label overlays for Google Maps.</li>
-		<li><a href="https://github.com/iamcal/gmaps-custom">gmaps-custom</a>: Use a custom tile-set with Google Maps.</li>
 		<li><a href="https://github.com/iamcal/node-memcache">node-memcache</a>: Memcache bindings for Node.</li>
 		<li><a href="https://github.com/iamcal/http_utils.js">http_utils.js</a>: A simple HTTP wrapper for Node that handles GET/POST vars and file uploads.</li>
-		<li><a href="https://github.com/iamcal/ease.js">ease.js</a>: Easing functions for natural animation in JavaScript.</li>
-		<li><a href="https://github.com/iamcal/gowear">gowear</a>: Extract data from bodymedia/gowear devices.</li>
-		<li><a href="https://github.com/iamcal/mittens">mittens</a>: Modular blogging platform in Django (unfinished).</li>
 	</ul>
 
-	<h2>Minecraft</h2>
+	<h2>Minecraft Mods</h2>
 	<ul>
-		<li><a href="https://github.com/iamcal/enchant-order">enchant-order</a>: Enchantment optimization tool.</li>
-		<li><a href="https://github.com/iamcal/mc-pixels">mc-pixels</a>: Pixel art helpers for Minecraft.</li>
 		<li><a href="https://github.com/iamcal/SuperBuckets">SuperBuckets</a>: Datapack allowing more sea creatures to be caught in buckets.</li>
-		<li><a href="https://github.com/iamcal/SuperPotions">SuperPotions</a>: Theo's Minecraft potion datapack.</li>
 		<li><a href="https://github.com/iamcal/mc-dp-chunk-loader">mc-dp-chunk-loader</a>: Chunk Loader datapack.</li>
-		<li><a href="https://github.com/iamcal/mc-dp-hate-of-fate">mc-dp-hate-of-fate</a>: Datapack for Theo's Hand of Fate item.</li>
 		<li><a href="https://github.com/iamcal/mc-bp-tntrun">mc-bp-tntrun</a>: TNT Run behavior pack.</li>
-		<li><a href="https://github.com/iamcal/mc-rp-crown">mc-rp-crown</a>: Resource pack.</li>
-		<li><a href="https://github.com/iamcal/fabric-playground-1.21">fabric-playground-1.21</a>: Fabric mod playground.</li>
-	</ul>
-
-	<h2>PHP Libraries</h2>
-	<ul>
-		<li><a href="https://github.com/exflickr/flamework">Flamework</a>: A Flickr-style PHP application framework.</li>
-		<li><a href="https://github.com/iamcal/rfc822">rfc822</a>: Email validation for RFCs 822, 2822 and 3696.</li>
-		<li><a href="https://github.com/iamcal/SQLParser">SQLParser</a>: Parse MySQL schemas in PHP, fast.</li>
-		<li><a href="https://github.com/iamcal/lib_autolink">lib_autolink</a>: Change URLs in input text into HTML links.</li>
-		<li><a href="https://github.com/iamcal/lib_sanitize">lib_sanitize</a>: Input validation library.</li>
-		<li><a href="https://github.com/iamcal/lib_oauth">lib_oauth</a>: PHP OAuth library.</li>
-		<li><a href="https://github.com/iamcal/lib_bcrypt">lib_bcrypt</a>: Shut up and use bcrypt.</li>
-		<li><a href="https://github.com/iamcal/lib_filter">lib_filter</a>: Whitelist HTML input filtering.</li>
-		<li><a href="https://github.com/iamcal/lib_timezones">lib_timezones</a>: Sensible timezone selection.</li>
-		<li><a href="https://github.com/iamcal/lib_classify">lib_classify</a>: PHP Bayesian classifier.</li>
-		<li><a href="https://github.com/iamcal/lib_solr_query">lib_solr_query</a>: Turn human queries into SOLR queries.</li>
-		<li><a href="https://github.com/iamcal/lib_ap">lib_ap</a>: Admin Protocol library.</li>
-		<li><a href="https://github.com/iamcal/pquery">pquery</a>: jQuery-style DOM traversal in PHP.</li>
-		<li><a href="https://github.com/iamcal/php-ip-parser">php-ip-parser</a>: IP address parsing in PHP.</li>
-		<li><a href="https://github.com/iamcal/php-bidi-cleanup">php-bidi-cleanup</a>: Clean up Unicode BiDi text in PHP.</li>
-		<li><a href="https://github.com/iamcal/flamework-JSON">flamework-JSON</a>: Decode bad 'JSON' in PHP.</li>
-		<li><a href="https://github.com/iamcal/flamework-useragent">flamework-useragent</a>: Decode User Agent strings.</li>
-		<li><a href="https://github.com/iamcal/flamework-sizelimit">flamework-sizelimit</a>: Kill bloated child workers.</li>
 	</ul>
 
 	<h2>Godot / Game Dev</h2>
 	<ul>
 		<li><a href="https://github.com/iamcal/godot-bitmap-fonts">godot-bitmap-fonts</a>: Bitmap font handling for Godot.</li>
-		<li><a href="https://github.com/iamcal/godot-bitmap-fonts-example">godot-bitmap-fonts-example</a>: Example project for godot-bitmap-fonts.</li>
 		<li><a href="https://github.com/iamcal/godot-ios-layout-tester">godot-ios-layout-tester</a>: Test iOS layouts in Godot.</li>
-		<li><a href="https://github.com/iamcal/godot-ios-layout-tester-example">godot-ios-layout-tester-example</a>: Example for godot-ios-layout-tester.</li>
-		<li><a href="https://github.com/iamcal/godot-misc">godot-misc</a>: Misc Godot stuff.</li>
 	</ul>
 
-	<h2>Single Sign-On</h2>
-	<ul>
-		<li><a href="https://github.com/exflickr/GodAuth">GodAuth</a>: Simple SSO for internal tools.</li>
-		<li><a href="https://github.com/iamcal/MediaWiki-SSO">MediaWiki-SSO</a>: SSO plugin for MediaWiki.</li>
-		<li><a href="https://github.com/iamcal/WordPress-SSO">WordPress-SSO</a>: SSO plugin for WordPress.</li>
-		<li><a href="https://github.com/iamcal/Trac-SSO">Trac-SSO</a>: SSO plugin for Trac.</li>
-		<li><a href="https://github.com/iamcal/Phabricator-SSO">Phabricator-SSO</a>: SSO plugin for Phabricator.</li>
-	</ul>
-
-</div></div>
-<div id="col2"><div>
-
-	<h2>Glitch &amp; TinySpeck</h2>
-	<p>The <a href="https://github.com/tinyspeck">tinyspeck org</a> has a lot more; these are the ones I worked on or that are worth highlighting.</p>
+	<h2>Glitch</h2>
 	<ul>
 		<li><a href="https://github.com/tinyspeck/glitch-GameServerJS">glitch-GameServerJS</a>: The server-side JavaScript that determined all Glitch game behavior.</li>
 		<li><a href="https://github.com/tinyspeck/glitch-avatars">glitch-avatars</a>: Art and source for Glitch's customizable avatars.</li>
@@ -168,43 +125,36 @@ Items below are grouped by topic and roughly sorted by popularity and recency.
 		<li><a href="https://github.com/tinyspeck/avatar-animations">avatar-animations</a>: Use animated Glitch avatars in your own apps.</li>
 		<li><a href="https://github.com/iamcal/glitch-oauth-demos">glitch-oauth-demos</a>: Demo code for the Glitch OAuth API.</li>
 		<li><a href="https://github.com/iamcal/little-glitch">little-glitch</a>: A little-printer Glitch app.</li>
+	</ul>
+
+	<h2>TinySpeck</h2>
+	<p>The <a href="https://github.com/tinyspeck">tinyspeck org</a> has a lot more; these are the ones I worked on or that are worth highlighting.</p>
+	<ul>
 		<li><a href="https://github.com/tinyspeck/statsd">statsd</a>: TinySpeck's StatsD fork.</li>
 		<li><a href="https://github.com/tinyspeck/graphite-render">graphite-render</a>: Time sampling visualization for Graphite.</li>
 		<li><a href="https://github.com/tinyspeck/doug">doug</a>: A simple bug tracker.</li>
 		<li><a href="https://github.com/tinyspeck/logbot">logbot</a>: Simple IRC bot in Node.</li>
 		<li><a href="https://github.com/tinyspeck/logbot-perl">logbot-perl</a>: IRC logging and reporting bot, in Perl.</li>
-		<li><a href="https://github.com/tinyspeck/imgproc">imgproc</a>: Simple tool to test image processing utilities.</li>
 	</ul>
 
-	<h2>Web Sites &amp; Apps</h2>
+	<h2>Flickr Framework</h2>
 	<ul>
-		<li><a href="https://github.com/iamcal/oembed">oEmbed</a>: Spec for oEmbed.</li>
-		<li><a href="https://github.com/iamcal/lego-carcassonne">Lego Carcassonne</a>: Lego CAD designs for Carcassonne.</li>
-		<li><a href="https://github.com/iamcal/unicodey.com">unicodey.com</a>: Unicode tools.</li>
-		<li><a href="https://github.com/iamcal/iTunesRemote">iTunesRemote</a>: Control a remote iTunes instance over the web.</li>
-		<li><a href="https://github.com/iamcal/iTunesServer">iTunesServer</a>: Play your music collection over the web.</li>
-		<li><a href="https://github.com/iamcal/grant-pattishall-award.com">grant-pattishall-award.com</a>: The website.</li>
-		<li><a href="https://github.com/iamcal/SchemaDiff">SchemaDiff</a>: Database schema diffing tool.</li>
-		<li><a href="https://github.com/iamcal/bad-toys">bad-toys</a>: Capture client-side JavaScript errors in the wild.</li>
-		<li><a href="https://github.com/iamcal/flengbot">flengbot</a>: Group messaging Jabber bot.</li>
-		<li><a href="https://github.com/iamcal/shakefeed.com">shakefeed.com</a>: The ShakeFeed webapp.</li>
-		<li><a href="https://github.com/iamcal/choose">choose</a>: Choose your own adventure, in PHP.</li>
-		<li><a href="https://github.com/iamcal/Choropleths">Choropleths</a>: Quick tool for making choropleth maps.</li>
-		<li><a href="https://github.com/iamcal/londonbloggers">London Bloggers</a>: The London Bloggers directory.</li>
-		<li><a href="https://github.com/iamcal/sycamore-server">sycamore-server</a>: A game (engine).</li>
-		<li><a href="https://github.com/iamcal/thisismyj.am">thisismyj.am</a>: Web app for tracking your Jams.</li>
-		<li><a href="https://github.com/iamcal/updog.report">updog.report</a>: What's updog?</li>
-		<li><a href="https://github.com/iamcal/timezone.help">timezone.help</a>: Timezone conversion helper.</li>
-		<li><a href="https://github.com/iamcal/bingo.iamcal.com">bingo.iamcal.com</a>: Bingo generator.</li>
-		<li><a href="https://github.com/iamcal/the5k.org">the5k.org</a>: The 5k competition site.</li>
-		<li><a href="https://github.com/iamcal/code.iamcal.com">code.iamcal.com</a>: Random bits of code from the last 20 years.</li>
-		<li><a href="https://github.com/iamcal/wp-bookmarklets">wp-bookmarklets</a>: Wikipedia bookmarklets.</li>
-		<li><a href="https://github.com/iamcal/capital-cities">capital-cities</a>: Capital cities quiz.</li>
-		<li><a href="https://github.com/iamcal/jumble">jumble</a>: A quiz built for saate.net.</li>
-		<li><a href="https://github.com/iamcal/pigeonstreet.com">pigeonstreet.com</a>: Website.</li>
+		<li><a href="https://github.com/exflickr/flamework">Flamework</a>: A Flickr-style PHP application framework.</li>
+		<li><a href="https://github.com/iamcal/flamework-JSON">flamework-JSON</a>: Decode bad 'JSON' in PHP.</li>
+		<li><a href="https://github.com/iamcal/flamework-useragent">flamework-useragent</a>: Decode User Agent strings.</li>
+		<li><a href="https://github.com/iamcal/flamework-sizelimit">flamework-sizelimit</a>: Kill bloated child workers.</li>
 	</ul>
 
-	<h2>Flickr</h2>
+	<h2>Flickr Admin SSO</h2>
+	<ul>
+		<li><a href="https://github.com/exflickr/GodAuth">GodAuth</a>: Simple SSO for internal tools.</li>
+		<li><a href="https://github.com/iamcal/MediaWiki-SSO">MediaWiki-SSO</a>: SSO plugin for MediaWiki.</li>
+		<li><a href="https://github.com/iamcal/WordPress-SSO">WordPress-SSO</a>: SSO plugin for WordPress.</li>
+		<li><a href="https://github.com/iamcal/Trac-SSO">Trac-SSO</a>: SSO plugin for Trac.</li>
+		<li><a href="https://github.com/iamcal/Phabricator-SSO">Phabricator-SSO</a>: SSO plugin for Phabricator.</li>
+	</ul>
+
+	<h2>Flickr Open Source</h2>
 	<p>Many of these were previously hosted in Flickr's SVN repository, which has unfortunately been offline for several years.</p>
 	<ul>
 		<li><a href="https://github.com/iamcal/Flickr-StatsD">Flickr::StatsD</a>: Collect and aggregate realtime stats.</li>
@@ -221,7 +171,66 @@ Items below are grouped by topic and roughly sorted by popularity and recency.
 		<li><a href="https://github.com/iamcal/flickrPearAPI">flickrPearAPI</a>: Flickr API PHP PEAR module.</li>
 	</ul>
 
-	<h2>World of Warcraft (Maps &amp; Web Tools)</h2>
+	<h2>More Web Apps</h2>
+	<ul>
+		<li><a href="https://github.com/iamcal/choose">choose</a>: Choose your own adventure, in PHP.</li>
+		<li><a href="https://github.com/iamcal/londonbloggers">London Bloggers</a>: The London Bloggers directory.</li>
+		<li><a href="https://github.com/iamcal/bingo.iamcal.com">bingo.iamcal.com</a>: Bingo generator.</li>
+		<li><a href="https://github.com/iamcal/the5k.org">the5k.org</a>: The 5k competition site.</li>
+		<li><a href="https://github.com/iamcal/capital-cities">capital-cities</a>: Capital cities quiz.</li>
+		<li><a href="https://github.com/iamcal/jumble">jumble</a>: A quiz built for saate.net.</li>
+	</ul>
+
+
+</div></div>
+<div id="col2"><div>
+
+	<h2>JavaScript</h2>
+	<ul>
+		<li><a href="https://github.com/iamcal/homespring.js">homespring.js</a>: A JavaScript interpreter for Homespring.</li>
+		<li><a href="https://github.com/iamcal/autolink-js">autolink-js</a>: JS link formatting library.</li>
+		<li><a href="https://github.com/iamcal/ease.js">ease.js</a>: Easing functions for natural animation in JavaScript.</li>
+		<li><a href="https://github.com/iamcal/PNGStore">PNGStore</a>: Compress CSS/JS into PNGs.</li>
+		<li><a href="https://github.com/iamcal/gmaps-labels">gmaps-labels</a>: Label overlays for Google Maps.</li>
+		<li><a href="https://github.com/iamcal/gmaps-custom">gmaps-custom</a>: Use a custom tile-set with Google Maps.</li>
+	</ul>
+
+	<h2>PHP Libraries</h2>
+	<ul>
+		<li><a href="https://github.com/iamcal/rfc822">rfc822</a>: Email validation for RFCs 822, 2822 and 3696.</li>
+		<li><a href="https://github.com/iamcal/SQLParser">SQLParser</a>: Parse MySQL schemas in PHP, fast.</li>
+		<li><a href="https://github.com/iamcal/lib_autolink">lib_autolink</a>: Change URLs in input text into HTML links.</li>
+		<li><a href="https://github.com/iamcal/lib_sanitize">lib_sanitize</a>: Input validation library.</li>
+		<li><a href="https://github.com/iamcal/lib_oauth">lib_oauth</a>: PHP OAuth library.</li>
+		<li><a href="https://github.com/iamcal/lib_bcrypt">lib_bcrypt</a>: Shut up and use bcrypt.</li>
+		<li><a href="https://github.com/iamcal/lib_filter">lib_filter</a>: Whitelist HTML input filtering.</li>
+		<li><a href="https://github.com/iamcal/lib_timezones">lib_timezones</a>: Sensible timezone selection.</li>
+		<li><a href="https://github.com/iamcal/lib_classify">lib_classify</a>: PHP Bayesian classifier.</li>
+		<li><a href="https://github.com/iamcal/lib_solr_query">lib_solr_query</a>: Turn human queries into SOLR queries.</li>
+		<li><a href="https://github.com/iamcal/lib_ap">lib_ap</a>: Admin Protocol library.</li>
+		<li><a href="https://github.com/iamcal/pquery">pquery</a>: jQuery-style DOM traversal in PHP.</li>
+		<li><a href="https://github.com/iamcal/php-ip-parser">php-ip-parser</a>: IP address parsing in PHP.</li>
+		<li><a href="https://github.com/iamcal/php-bidi-cleanup">php-bidi-cleanup</a>: Clean up Unicode BiDi text in PHP.</li>
+		<li><a href="https://github.com/iamcal/XML_NiceTree">XML_NiceTree</a>: PHP4 xpath-like library.</li>
+		<li><a href="https://github.com/iamcal/XML_Atom">XML_Atom</a>: PHP Atom parser compatible with PEAR's XML::RSS.</li>
+		<li><a href="https://github.com/iamcal/php-auto-rotate">php-auto-rotate</a>: Automatic rotation of JPEGs.</li>
+	</ul>
+
+	<h2>Homespring &amp; Esolangs</h2>
+	<ul>
+		<li><a href="https://github.com/iamcal/homespring.cloud">homespring.cloud</a>: Web-based visual interactive debugger for the Homespring language.</li>
+		<li><a href="https://github.com/iamcal/homespring.js">homespring.js</a>: A JavaScript interpreter for Homespring.</li>
+		<li><a href="https://github.com/iamcal/Homespring">Homespring</a>: Mirror of the original Homespring.</li>
+		<li><a href="https://github.com/iamcal/esolangquiz.iamcal.com">esolangquiz.iamcal.com</a>: Esoteric language quiz.</li>
+		<li><a href="https://github.com/iamcal/perl-Language-Homespring">perl-Language-Homespring</a>: Homespring interpreter in Perl.</li>
+		<li><a href="https://github.com/iamcal/perl-Language-Homespring-Visualise-GraphViz">perl-Language-Homespring-Visualise-GraphViz</a>: Visualizations for Homespring.</li>
+		<li><a href="https://github.com/iamcal/perl-Language-Nouse">perl-Language-Nouse</a>: Nouse interpreter.</li>
+		<li><a href="https://github.com/iamcal/perl-Inline-Nouse">perl-Inline-Nouse</a>: Nouse Inline interpreter.</li>
+		<li><a href="https://github.com/iamcal/perl-Inline-SMITH">perl-Inline-SMITH</a>: SMITH Inline interpreter.</li>
+		<li><a href="https://github.com/iamcal/perl-Inline-Interp">perl-Inline-Interp</a>: Make Inline modules for interpreted languages.</li>
+	</ul>
+
+	<h2>World of Warcraft (Webapps)</h2>
 	<ul>
 		<li><a href="https://github.com/iamcal/World-of-MapCraft">World-of-MapCraft</a>: World of Warcraft slippy maps.</li>
 		<li><a href="https://github.com/iamcal/Wowhead-API">Wowhead-API</a>: PHP library for turning Wowhead pages into useful data.</li>
@@ -229,7 +238,6 @@ Items below are grouped by topic and roughly sorted by popularity and recency.
 		<li><a href="https://github.com/iamcal/RaidTracker">RaidTracker</a>: WoW raid/guild/loot tracker.</li>
 		<li><a href="https://github.com/iamcal/AttendanceTracker">AttendanceTracker</a>: WoW raid attendance tracker.</li>
 		<li><a href="https://github.com/iamcal/GuildInfo">GuildInfo</a>: WoW guild site.</li>
-		<li><a href="https://github.com/iamcal/babbytracker.com">babbytracker.com</a>: Pet tracker site.</li>
 		<li><a href="https://github.com/iamcal/php-wow-feed">php-wow-feed</a>: Turn the WoW feed API into an RSS feed.</li>
 		<li><a href="https://github.com/iamcal/DropCraft">DropCraft</a>: WoW drop simulation.</li>
 		<li><a href="https://github.com/iamcal/WoW-Survival-Haste">WoW-Survival-Haste</a>: Haste modeling for Survival hunters.</li>
@@ -258,20 +266,6 @@ Items below are grouped by topic and roughly sorted by popularity and recency.
 		<li><a href="https://github.com/iamcal/wow-Auc-Searcher-Pets">wow-Auc-Searcher-Pets</a>: Auctioneer plugin to search for missing pets.</li>
 	</ul>
 
-	<h2>Homespring &amp; Esolangs</h2>
-	<ul>
-		<li><a href="https://github.com/iamcal/homespring.cloud">homespring.cloud</a>: Web-based visual interactive debugger for the Homespring language.</li>
-		<li><a href="https://github.com/iamcal/homespring.js">homespring.js</a>: A JavaScript interpreter for Homespring.</li>
-		<li><a href="https://github.com/iamcal/Homespring">Homespring</a>: Mirror of the original Homespring.</li>
-		<li><a href="https://github.com/iamcal/esolangquiz.iamcal.com">esolangquiz.iamcal.com</a>: Esoteric language quiz.</li>
-		<li><a href="https://github.com/iamcal/perl-Language-Homespring">perl-Language-Homespring</a>: Homespring interpreter in Perl.</li>
-		<li><a href="https://github.com/iamcal/perl-Language-Homespring-Visualise-GraphViz">perl-Language-Homespring-Visualise-GraphViz</a>: Visualizations for Homespring.</li>
-		<li><a href="https://github.com/iamcal/perl-Language-Nouse">perl-Language-Nouse</a>: Nouse interpreter.</li>
-		<li><a href="https://github.com/iamcal/perl-Inline-Nouse">perl-Inline-Nouse</a>: Nouse Inline interpreter.</li>
-		<li><a href="https://github.com/iamcal/perl-Inline-SMITH">perl-Inline-SMITH</a>: SMITH Inline interpreter.</li>
-		<li><a href="https://github.com/iamcal/perl-Inline-Interp">perl-Inline-Interp</a>: Make Inline modules for interpreted languages.</li>
-	</ul>
-
 	<h2>Perl Modules</h2>
 	<ul>
 		<li><a href="https://github.com/iamcal/perl-CSS">CSS</a>: Object-oriented access to cascading stylesheets.</li>
@@ -289,22 +283,10 @@ Items below are grouped by topic and roughly sorted by popularity and recency.
 		<li><a href="https://github.com/iamcal/tiny-perl">tiny-perl</a>: Some minimalist perl webapps.</li>
 	</ul>
 
-	<h2>Misc Cruft</h2>
+	<h2>Other Stuff</h2>
 	<ul>
-		<li><a href="https://github.com/iamcal/g2">g2</a>: Interface experiments for Ganglia.</li>
-		<li><a href="https://github.com/iamcal/php-snippets">php-snippets</a>: Small/misc pieces of PHP.</li>
-		<li><a href="https://github.com/iamcal/XML_NiceTree">XML_NiceTree</a>: PHP4 xpath-like library.</li>
-		<li><a href="https://github.com/iamcal/XML_Atom">XML_Atom</a>: PHP Atom parser compatible with PEAR's XML::RSS.</li>
-		<li><a href="https://github.com/iamcal/php-tokyo-dystopia">php-tokyo-dystopia</a>: Added some docs for this PHP extension.</li>
-		<li><a href="https://github.com/iamcal/php-auto-rotate">php-auto-rotate</a>: Automatic rotation of JPEGs.</li>
-		<li><a href="https://github.com/iamcal/hCardFight">hCardFight</a>: Microformats collectible card game.</li>
-		<li><a href="https://github.com/iamcal/CalAmp">CalAmp</a>: Record your track history from WinAmp2.</li>
-		<li><a href="https://github.com/iamcal/StormLib">StormLib</a>: A VS2010-buildable StormLib.</li>
-		<li><a href="https://github.com/iamcal/ImageMagickTips">ImageMagickTips</a>: How to actually do common things in ImageMagick.</li>
-		<li><a href="https://github.com/iamcal/phpBB-Patches">phpBB-Patches</a>: Misc patches for phpBB.</li>
-		<li><a href="https://github.com/iamcal/Phabricator-ForcePull">Phabricator-ForcePull</a>: Force a repo pull in Phabricator.</li>
-		<li><a href="https://github.com/iamcal/mysql-rest-monitor-php">mysql-rest-monitor-php</a>: MySQL REST monitor.</li>
-		<li><a href="https://github.com/iamcal/metronome">metronome</a>: I don't know why I wrote this.</li>
+		<li><a href="https://github.com/iamcal/lego-carcassonne">Lego Carcassonne</a>: Lego CAD designs for Carcassonne.</li>
+		<li><a href="https://github.com/iamcal/Choropleths">Choropleths</a>: Quick tool for making choropleth maps.</li>
 	</ul>
 
 </div></div>
