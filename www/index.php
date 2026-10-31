@@ -39,7 +39,7 @@ h2 {
 </head>
 <body>
 
-<?
+<?php
 	$nav = 'github';
 	include('../shared/universal_nav.txt');
 ?>
