@@ -41,7 +41,7 @@ h2 {
 
 <?php
 	$nav = 'github';
-	include('../shared/universal_nav.txt');
+	include('../shared/universal_nav.php');
 ?>
 
 <div id="main">
